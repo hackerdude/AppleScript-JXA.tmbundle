@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#/usr/bin/env osascript -l JavaScript
+
+// You can target the app or use "Application.currentApplication, but no dialogs or name() then"
+App = Application("$1")
+// Note: Your script should live in ~/Library/Application Support/(Your App)/Scripts for dialogs to work!
+App.includeStandardAdditions = true;
+App.displayAlert("Hello, world!")
+</string>
+	<key>name</key>
+	<string>New JXA File</string>
+	<key>scope</key>
+	<string>source.javascript.jxa</string>
+	<key>uuid</key>
+	<string>EB3D29E3-3C2D-4443-AAC6-ADC3367B12F5</string>
+</dict>
+</plist>

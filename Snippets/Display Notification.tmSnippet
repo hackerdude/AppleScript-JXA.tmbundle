@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>app.displayNotification('${1}',
+  { withTitle: '${2}', subtitle: '${3}' })</string>
+	<key>name</key>
+	<string>Display Notification</string>
+	<key>uuid</key>
+	<string>36D2889E-3572-458B-9D26-EBD0CD0F603C</string>
+</dict>
+</plist>

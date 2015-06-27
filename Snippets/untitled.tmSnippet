@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// See https://developer.apple.com/library/mac/documentation/Miscellaneous/Reference/UTIRef/Articles/System-DeclaredUniformTypeIdentifiers.html#//apple_ref/doc/uid/TP40009259-SW1
+app.chooseFile({ withPrompt: '${1:Choose an Image}', ofType: ['public.jpeg', 'public.png'] })</string>
+	<key>name</key>
+	<string>Choose a File</string>
+	<key>scope</key>
+	<string>source.javascript.jxa</string>
+	<key>tabTrigger</key>
+	<string>chooseFile</string>
+	<key>uuid</key>
+	<string>F744D457-8726-4E17-8665-FF1F83C06150</string>
+</dict>
+</plist>
